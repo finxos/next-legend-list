@@ -3,12 +3,10 @@
   var nx = global.nx || require('next-js-core2');
 
   nx.legendList = function(inChartStyle) {
-    if (!inChartStyle) return [];
+    if (!inChartStyle || inChartStyle.format === 'raw') return [];
     var seriesList = [];
     var result = [];
     switch (true) {
-      case inChartStyle.format === 'raw':
-        return [];
       case inChartStyle.verion !== undefined || inChartStyle.format !== undefined:
         seriesList = inChartStyle.series ? inChartStyle.series : inChartStyle.seriesList;
         break;

@@ -2,7 +2,7 @@
  * name: next-legend-list
  * url: https://github.com/afeiship/next-legend-list
  * version: 1.0.0
- * date: 2019-09-11T09:09:19.322Z
+ * date: 2019-09-11T09:10:41.133Z
  * license: MIT
  */
 
@@ -11,12 +11,10 @@
   var nx = global.nx || require('next-js-core2');
 
   nx.legendList = function(inChartStyle) {
-    if (!inChartStyle) return [];
+    if (!inChartStyle || inChartStyle.format === 'raw') return [];
     var seriesList = [];
     var result = [];
     switch (true) {
-      case inChartStyle.format === 'raw':
-        return [];
       case inChartStyle.verion !== undefined || inChartStyle.format !== undefined:
         seriesList = inChartStyle.series ? inChartStyle.series : inChartStyle.seriesList;
         break;
