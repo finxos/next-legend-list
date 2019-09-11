@@ -10,6 +10,8 @@
       case inChartStyle.verion !== undefined || inChartStyle.format !== undefined:
         seriesList = inChartStyle.series ? inChartStyle.series : inChartStyle.seriesList;
         break;
+      case inChartStyle.format === 'raw':
+        return [];
       default:
         seriesList = inChartStyle.chartOption.seriesList;
         break;

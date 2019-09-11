@@ -2,7 +2,7 @@
  * name: next-legend-list
  * url: https://github.com/afeiship/next-legend-list
  * version: 1.0.0
- * date: 2019-09-03T11:13:03.274Z
+ * date: 2019-09-11T09:07:55.967Z
  * license: MIT
  */
 
@@ -18,6 +18,8 @@
       case inChartStyle.verion !== undefined || inChartStyle.format !== undefined:
         seriesList = inChartStyle.series ? inChartStyle.series : inChartStyle.seriesList;
         break;
+      case inChartStyle.format === 'raw':
+        return [];
       default:
         seriesList = inChartStyle.chartOption.seriesList;
         break;
