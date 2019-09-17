@@ -32,7 +32,6 @@
       };
     });
   };
-  console.log('111')
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.legendList;
   }
