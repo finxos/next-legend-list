@@ -1,0 +1,438 @@
+{
+  "unionAxis": true,
+  "stackStateItems": [],
+  "accumGroup": [],
+  "yoyGroup": [],
+  "dateRange": ["20160731", "20190731"],
+  "autoUpdate": false,
+  "chartOption": {
+    "background": "horizontal",
+    "xAxisList": [
+      {
+        "name": "date",
+        "position": "bottom",
+        "offset": 0,
+        "seqNo": "0",
+        "max": 0,
+        "min": 0,
+        "unit": 0,
+        "rotate": null,
+        "dateFormat": null,
+        "tssScale": null,
+        "gridLines": false,
+        "axisLabel": {
+          "rotate": null,
+          "formatter": null
+        }
+      }
+    ],
+    "yAxisList": [
+      {
+        "name": "轴1",
+        "position": "left",
+        "offset": 0,
+        "seqNo": "0",
+        "rotate": null,
+        "dateFormat": null,
+        "tssScale": "0",
+        "gridLines": false,
+        "axisLineShow": true,
+        "axisLabelShow": true,
+        "axisLabel": {
+          "rotate": null,
+          "formatter": "{value}"
+        },
+        "inverse": false
+      },
+      {
+        "name": "轴2",
+        "position": "right",
+        "offset": 0,
+        "seqNo": "0",
+        "rotate": null,
+        "dateFormat": null,
+        "tssScale": "0",
+        "gridLines": false,
+        "axisLabel": {
+          "rotate": null,
+          "formatter": "{value}"
+        },
+        "inverse": false
+      }
+    ],
+    "seriesList": [
+      {
+        "sid": "~~~WEBUSER44.wd.G0002279",
+        "show": true,
+        "name": "欧元区:HICP(调和CPI):环比",
+        "originSid": "~~~WEBUSER44.wd.G0002279",
+        "chartType": "bar",
+        "showSymbol": false,
+        "showData": false,
+        "lineStyle": "solid",
+        "color": "#9849B7",
+        "axisName": "轴2",
+        "axisHint": "",
+        "seqNo": "0",
+        "numberFormat": "General",
+        "transform": {
+          "ratio": 1,
+          "fractionDigits": 2
+        },
+        "smooth": false,
+        "barGap": "0%",
+        "showLine": true,
+        "stack": null,
+        "barWidth": "",
+        "detailData": [
+          {
+            "period_date": 20160731,
+            "data_value": "-0.5"
+          },
+          {
+            "period_date": 20160831,
+            "data_value": "0.1"
+          },
+          {
+            "period_date": 20160930,
+            "data_value": "0.4"
+          },
+          {
+            "period_date": 20161031,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20161130,
+            "data_value": "-0.4"
+          },
+          {
+            "period_date": 20161231,
+            "data_value": "0.5"
+          },
+          {
+            "period_date": 20170131,
+            "data_value": "-0.9"
+          },
+          {
+            "period_date": 20170228,
+            "data_value": "0.4"
+          },
+          {
+            "period_date": 20170331,
+            "data_value": "0.8"
+          },
+          {
+            "period_date": 20170430,
+            "data_value": "0.6"
+          },
+          {
+            "period_date": 20170531,
+            "data_value": "-0.1"
+          },
+          {
+            "period_date": 20170630,
+            "data_value": "0.1"
+          },
+          {
+            "period_date": 20170731,
+            "data_value": "-0.5"
+          },
+          {
+            "period_date": 20170831,
+            "data_value": "0.3"
+          },
+          {
+            "period_date": 20170930,
+            "data_value": "0.4"
+          },
+          {
+            "period_date": 20171031,
+            "data_value": "0.0"
+          },
+          {
+            "period_date": 20171130,
+            "data_value": "-0.2"
+          },
+          {
+            "period_date": 20171231,
+            "data_value": "0.3"
+          },
+          {
+            "period_date": 20180131,
+            "data_value": "-0.9"
+          },
+          {
+            "period_date": 20180228,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20180331,
+            "data_value": "1.1"
+          },
+          {
+            "period_date": 20180430,
+            "data_value": "0.4"
+          },
+          {
+            "period_date": 20180531,
+            "data_value": "0.6"
+          },
+          {
+            "period_date": 20180630,
+            "data_value": "0.1"
+          },
+          {
+            "period_date": 20180731,
+            "data_value": "-0.2"
+          },
+          {
+            "period_date": 20180831,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20180930,
+            "data_value": "0.4"
+          },
+          {
+            "period_date": 20181031,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20181130,
+            "data_value": "-0.6"
+          },
+          {
+            "period_date": 20181231,
+            "data_value": "0.0"
+          },
+          {
+            "period_date": 20190131,
+            "data_value": "-1.0"
+          },
+          {
+            "period_date": 20190228,
+            "data_value": "0.3"
+          },
+          {
+            "period_date": 20190331,
+            "data_value": "1.0"
+          },
+          {
+            "period_date": 20190430,
+            "data_value": "0.7"
+          },
+          {
+            "period_date": 20190531,
+            "data_value": "0.1"
+          },
+          {
+            "period_date": 20190630,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20190731,
+            "data_value": "-0.4"
+          }
+        ]
+      },
+      {
+        "sid": "~~~WEBUSER44.wd.G0001698",
+        "show": true,
+        "name": "欧元区:HICP(调和CPI):当月同比",
+        "originSid": "~~~WEBUSER44.wd.G0001698",
+        "chartType": "bar",
+        "showSymbol": false,
+        "showData": false,
+        "lineStyle": "solid",
+        "color": "#86ACAE",
+        "axisName": "轴1",
+        "axisHint": "",
+        "seqNo": "0",
+        "numberFormat": "General",
+        "transform": {
+          "ratio": 1,
+          "fractionDigits": 2
+        },
+        "smooth": false,
+        "barGap": "0%",
+        "showLine": true,
+        "stack": null,
+        "detailData": [
+          {
+            "period_date": 20160731,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20160831,
+            "data_value": "0.2"
+          },
+          {
+            "period_date": 20160930,
+            "data_value": "0.4"
+          },
+          {
+            "period_date": 20161031,
+            "data_value": "0.5"
+          },
+          {
+            "period_date": 20161130,
+            "data_value": "0.6"
+          },
+          {
+            "period_date": 20161231,
+            "data_value": "1.1"
+          },
+          {
+            "period_date": 20170131,
+            "data_value": "1.7"
+          },
+          {
+            "period_date": 20170228,
+            "data_value": "2.0"
+          },
+          {
+            "period_date": 20170331,
+            "data_value": "1.5"
+          },
+          {
+            "period_date": 20170430,
+            "data_value": "1.9"
+          },
+          {
+            "period_date": 20170531,
+            "data_value": "1.4"
+          },
+          {
+            "period_date": 20170630,
+            "data_value": "1.3"
+          },
+          {
+            "period_date": 20170731,
+            "data_value": "1.3"
+          },
+          {
+            "period_date": 20170831,
+            "data_value": "1.5"
+          },
+          {
+            "period_date": 20170930,
+            "data_value": "1.6"
+          },
+          {
+            "period_date": 20171031,
+            "data_value": "1.4"
+          },
+          {
+            "period_date": 20171130,
+            "data_value": "1.5"
+          },
+          {
+            "period_date": 20171231,
+            "data_value": "1.3"
+          },
+          {
+            "period_date": 20180131,
+            "data_value": "1.3"
+          },
+          {
+            "period_date": 20180228,
+            "data_value": "1.1"
+          },
+          {
+            "period_date": 20180331,
+            "data_value": "1.4"
+          },
+          {
+            "period_date": 20180430,
+            "data_value": "1.2"
+          },
+          {
+            "period_date": 20180531,
+            "data_value": "2.0"
+          },
+          {
+            "period_date": 20180630,
+            "data_value": "2.0"
+          },
+          {
+            "period_date": 20180731,
+            "data_value": "2.2"
+          },
+          {
+            "period_date": 20180831,
+            "data_value": "2.1"
+          },
+          {
+            "period_date": 20180930,
+            "data_value": "2.1"
+          },
+          {
+            "period_date": 20181031,
+            "data_value": "2.3"
+          },
+          {
+            "period_date": 20181130,
+            "data_value": "1.9"
+          },
+          {
+            "period_date": 20181231,
+            "data_value": "1.5"
+          },
+          {
+            "period_date": 20190131,
+            "data_value": "1.4"
+          },
+          {
+            "period_date": 20190228,
+            "data_value": "1.5"
+          },
+          {
+            "period_date": 20190331,
+            "data_value": "1.4"
+          },
+          {
+            "period_date": 20190430,
+            "data_value": "1.7"
+          },
+          {
+            "period_date": 20190531,
+            "data_value": "1.2"
+          },
+          {
+            "period_date": 20190630,
+            "data_value": "1.3"
+          },
+          {
+            "period_date": 20190731,
+            "data_value": "1.0"
+          }
+        ]
+      }
+    ]
+  },
+  "YAxisInfoList": [
+    {
+      "bindingSeries": ["~~~WEBUSER44.wd.G0001698"],
+      "unit": "%",
+      "isMain": true,
+      "name": "轴1",
+      "min": "",
+      "max": "",
+      "axisLineShow": true,
+      "axisLabelShow": true
+    },
+    {
+      "bindingSeries": ["~~~WEBUSER44.wd.G0002279"],
+      "unit": "%",
+      "isMain": false,
+      "name": "轴2",
+      "min": "",
+      "max": ""
+    }
+  ],
+  "title": {
+    "text": "y轴小数点精度",
+    "subtext": "",
+    "left": "center"
+  }
+}
