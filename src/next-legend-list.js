@@ -110,7 +110,6 @@ function _getRawType(series, legendList) {
     } else {
       legendList = _getMiaotuLegendList(option);
     }
-    console.log(legendList);
     return legendList;
   };
   if (typeof module !== 'undefined' && module.exports) {

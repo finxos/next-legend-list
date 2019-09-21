@@ -2,7 +2,7 @@
  * name: next-legend-list
  * url: https://github.com/afeiship/next-legend-list
  * version: 1.0.0
- * date: 2019-09-17T09:58:35.198Z
+ * date: 2019-09-21T09:03:10.465Z
  * license: MIT
  */
 
@@ -112,13 +112,12 @@ function _getRawType(series, legendList) {
   var nx = global.nx || require('next-js-core2');
 
   nx.legendList = function(option) {
-    legendList = []; //{type, name, color}
+    var legendList = []; //{type, name, color}
     if (option.format === 'raw') {
       legendList = _getRawLegendList(option);
     } else {
       legendList = _getMiaotuLegendList(option);
     }
-    console.log(legendList);
     return legendList;
   };
   if (typeof module !== 'undefined' && module.exports) {
